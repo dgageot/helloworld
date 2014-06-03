@@ -1,0 +1,9 @@
+version: v1beta1
+containers:
+  - name: helloworld
+    image: dgageot/helloworld
+    command: ['java', '-jar', 'target/hello.jar']
+    ports:
+      - name: http
+        hostPort: 80
+        containerPort: 8080
