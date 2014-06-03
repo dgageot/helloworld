@@ -13,3 +13,5 @@ docker run -p 80:8080 -t -i dgageot/helloworld java -jar target/hello.jar
 docker run -i -t dgageot/helloworld /bin/bash
 
 docker build -t dgageot/helloworld github.com/dgageot/helloworld
+
+docker run -i -t ubuntu:14.04 /bin/bash
