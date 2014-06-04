@@ -14,6 +14,8 @@ docker run -i -t dgageot/helloworld /bin/bash
 
 docker build -t dgageot/helloworld github.com/dgageot/helloworld
 
+docker build -t dgageot/helloworld .
+
 docker run -i -t ubuntu:14.04 /bin/bash
 
 java -jar target/hello.jar
