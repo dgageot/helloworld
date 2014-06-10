@@ -8,7 +8,7 @@ gcutil --service_version=v1 --project=numeric-scope-568 ssh --zone=europe-west1-
 
 gcutil --service_version=v1 --project=numeric-scope-568 addinstance hello --zone=europe-west1-b --machine_type=n1-standard-1 --tags=http-server --image="https://www.googleapis.com/compute/v1/projects/debian-cloud/global/images/backports-debian-7-wheezy-v20140415"
 
-docker run -p 80:8080 -t -i dgageot/helloworld java -jar target/hello.jar
+docker run -p 80:8080 -t -i dgageot/helloworld
 
 docker run -i -t dgageot/helloworld /bin/bash
 
